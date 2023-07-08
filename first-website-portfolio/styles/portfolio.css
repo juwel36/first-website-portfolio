@@ -1,0 +1,51 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav-title{
+  color: #181818;
+  font-size: 45px;
+  
+}
+nav .j{
+  color:#FD6E0A;
+}
+nav .nav-navigation {
+display: flex;
+align-items: center;
+}
+.nav-navigation li{
+list-style: none;
+margin-right: 50px;
+
+
+}
+.nav-navigation a{
+text-decoration: none;
+color: #181818;
+}
+.btn-primary{
+  border-radius: 5px;
+background: #FD6E0A;
+font-size: 20px;
+border: none;
+color: white;padding: 15px 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
