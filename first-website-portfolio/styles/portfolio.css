@@ -38,21 +38,64 @@ border: none;
 color: white;padding: 15px 30px;
 }
 .header{
-background: #FFF8F3;;
+background:#FFF8F3;;
 }
 .head{
 display: flex;
-align-items: center;padding: 30px 30px 30px 150px;
+align-items: center;
+padding: 30px 30px 0px 150px;
+background-image: url(../images/header_bg.png);
+background-repeat: no-repeat;
+background-position: bottom right;
+justify-content: space-between;
 
 }
 
 img{
   width: 400px;
 }
+.banner h3{
+  color: var(--dark-02, #474747);
+font-size: 45px;margin-bottom: 0;
+}
+.banner h1{
+  color: var(--dark-01, #181818);
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 19px;
+}
+.paragraph{
+  color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+}
+.banner{
+max-width: 500px;
 
-
-
-
+}
+.about-me{
+  color:  #18181);
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.about-p{
+  color:  #757575;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.about{
+padding: 131px 150px 130px 150px;
+border-radius: 10px;
+background: #FFF8F3;
+margin: 130px 0;
+}
 
 
 
