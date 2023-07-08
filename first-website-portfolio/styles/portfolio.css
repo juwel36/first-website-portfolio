@@ -51,7 +51,7 @@ justify-content: space-between;
 
 }
 
-img{
+.src{
   width: 400px;
 }
 .banner h3{
@@ -71,9 +71,15 @@ font-family: Open Sans;
 font-size: 18px;
 }
 .banner{
-max-width: 500px;
+min-width: 240px;
 
 }
+main{
+  max-width:1040px;
+  margin: 0 auto;
+  
+  }
+  
 .about-me{
   color:  #18181);
 text-align: center;
@@ -95,9 +101,33 @@ padding: 131px 150px 130px 150px;
 border-radius: 10px;
 background: #FFF8F3;
 margin: 130px 0;
+
+  
 }
+.about-info-container{
+display: flex;
+justify-content: space-around;
 
 
+}
+.about-info{
+justify-content:center;
+color: green;
+text-align: center;
+}
+#id{
+padding:30px 150px ;
 
+}
+.somethings{
+  display: flex;
+  justify-content: center;
+
+}
+.skill{
+  padding: 30px;
+  box-shadow: 1px 1px 5 px black;
+  margin: 5px;
+}
 
 
