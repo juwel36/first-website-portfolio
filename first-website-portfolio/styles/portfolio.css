@@ -1,7 +1,7 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
-nav{
+/* nav{
   display: flex;
   align-items: center;
   justify-content: space-between; 
@@ -79,7 +79,7 @@ main{
   margin: 0 auto;
   
   }
-  
+   */
 .about-me{
   color:  #18181);
 text-align: center;
@@ -97,7 +97,7 @@ line-height: normal;
   line-height: 30px;
 }
 .about{
-padding: 131px 150px 130px 150px;
+  padding: 131px 150px 130px 150px;
 border-radius: 10px;
 background: #FFF8F3;
 margin: 130px 0;
@@ -129,5 +129,16 @@ padding:30px 150px ;
   box-shadow: 1px 1px 5 px black;
   margin: 5px;
 }
+@media screen and (max-width:576px){
+  .somethings{
+flex-direction: column;
+  }
+#id{
+padding: 0;
+
+}
+
+}
+
 
 
