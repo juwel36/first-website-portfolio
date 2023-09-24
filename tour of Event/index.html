@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour of Event</title>
+</head>
+<body>
+  <h1 onclick="">DOM er ajke special Event</h1>
+  <button onclick="document.body.style.backgroundColor='pink'">click me</button>
+  <button onclick="makeLightGreen()">submit</button>
+  <button id="make-Purple">make purple</button>
+  <button id="make-green">make greeen</button>
+<!-- ------------------------------------------------------- -->
+<h1>FInal Dom Event Handlers</h1>
+<h3 id="handle-Status"> defult Text</h3>
+<button onclick="handleOneCLick()" handle event by add onclick funtion</button>
+<button id="event-listener">handle by event listeaner</button>
+
+<h1>hello bangladesh</h1>
+<p id="parragraph">saregama pa tana nana</p>
+<input id="input-field" type="text">
+<button id="submit-button">submit</button>
+<!-- ----------------------- -->
+<div id="comment-container">
+  <h1>Facebook</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+</div>
+
+<div>
+  <textarea name="new-comment" id="new-comment" cols="30" rows="10"></textarea>
+  <br>
+  <button id="btn-post">Submit</button>
+</div>
+
+<script>
+document.getElementById('btn-post').addEventListener('click', function() {
+  const commentBox = document.getElementById('new-comment');
+  const newText = commentBox.value;
+
+  const commentContainer = document.getElementById('comment-container');
+  const p = document.createElement('p');
+  p.innerText = newText;
+  commentContainer.appendChild(p);
+  console.log(commentContainer);
+})
+
+</script>
+
+  <script src="js/event.js"></script>
+  <script src="js/eventSummary.js"></script>
+</body>
+</html>

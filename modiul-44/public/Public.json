@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 13",
+    "price": 999.99,
+    "quantity": 50,
+    "quantity_percentage": 11.11
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21",
+    "price": 899.99,
+    "quantity": 40,
+    "quantity_percentage": 8.89
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 6",
+    "price": 799.99,
+    "quantity": 30,
+    "quantity_percentage": 6.67
+  },
+  {
+    "id": 4,
+    "name": "OnePlus 9",
+    "price": 749.99,
+    "quantity": 35,
+    "quantity_percentage": 7.78
+  },
+  {
+    "id": 5,
+    "name": "Xiaomi Mi 11",
+    "price": 699.99,
+    "quantity": 45,
+    "quantity_percentage": 10.00
+  },
+  {
+    "id": 6,
+    "name": "Sony Xperia 1 III",
+    "price": 899.99,
+    "quantity": 25,
+    "quantity_percentage": 5.56
+  },
+  {
+    "id": 7,
+    "name": "LG Velvet",
+    "price": 599.99,
+    "quantity": 20,
+    "quantity_percentage": 4.44
+  },
+  {
+    "id": 8,
+    "name": "Huawei P40 Pro",
+    "price": 799.99,
+    "quantity": 15,
+    "quantity_percentage": 3.33
+  },
+  {
+    "id": 9,
+    "name": "Nokia 9 PureView",
+    "price": 499.99,
+    "quantity": 10,
+    "quantity_percentage": 2.22
+  },
+  {
+    "id": 10,
+    "name": "Motorola Moto G Power",
+    "price": 299.99,
+    "quantity": 55,
+    "quantity_percentage": 12.22
+  }
+]

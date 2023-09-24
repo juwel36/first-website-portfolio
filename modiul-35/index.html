@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  #clock {
+    font-size: 175px;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+</style>
+
+<body>
+  <main>
+<!-- 
+    <div id="clock">8:10:45</div> -->
+
+
+  </main>
+
+  <div>
+<input id="age" type="text">
+<button onclick="checkage()">search</button>
+<p id="error" ></p>
+  </div>
+
+<script src="error.js"></script>
+<script src="promise.js"></script>
+  <script src="sync.js"></script>
+</body>
+</html>
+
+
+
+  <!-- <script>
+    let timerInterval;
+    let currentTime = 0;
+    let isRunning = false;
+
+    const timerElement = document.getElementById('timer');
+    const startButton = document.getElementById('startBtn');
+    const stopButton = document.getElementById('stopBtn');
+    const resetButton = document.getElementById('resetBtn');
+
+    function startTimer() {
+      if (!isRunning) {
+        isRunning = true;
+        timerInterval = setInterval(updateTime, 1000);
+      }
+    }
+
+    function stopTimer() {
+      if (isRunning) {
+        isRunning = false;
+        clearInterval(timerInterval);
+      }
+    }
+
+    function resetTimer() {
+      stopTimer();
+      currentTime = 0;
+      updateTimerDisplay();
+    }
+
+    function updateTime() {
+      currentTime++;
+      updateTimerDisplay();
+    }
+
+    function updateTimerDisplay() {
+      timerElement.textContent = currentTime;
+    }
+
+    startButton.addEventListener('click', startTimer);
+    stopButton.addEventListener('click', stopTimer);
+    resetButton.addEventListener('click', resetTimer);
+  </script> -->

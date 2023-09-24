@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Timer</title>
+</head>
+<body>
+  <h1>Simple Timer</h1>
+  <p id="timer">0</p>
+  <button onclick="startBtn()" id="startBtn">Start</button>
+  <button onclick="stopBtn()" id="stopBtn">Stop</button>
+  <button id="resetBtn">Reset</button>
+
+  <!-- <script>
+    let timerInterval;
+    let currentTime = 0;
+    let isRunning = false;
+
+    const timerElement = document.getElementById('timer');
+    const startButton = document.getElementById('startBtn');
+    const stopButton = document.getElementById('stopBtn');
+    const resetButton = document.getElementById('resetBtn');
+
+    function startTimer() {
+      if (!isRunning) {
+        isRunning = true;
+        timerInterval = setInterval(updateTime, 1000);
+      }
+    }
+
+    function stopTimer() {
+      if (isRunning) {
+        isRunning = false;
+        clearInterval(timerInterval);
+      }
+    }
+
+    function resetTimer() {
+      stopTimer();
+      currentTime = 0;
+      updateTimerDisplay();
+    }
+
+    function updateTime() {
+      currentTime++;
+      updateTimerDisplay();
+    }
+
+    function updateTimerDisplay() {
+      timerElement.textContent = currentTime;
+    }
+
+    startButton.addEventListener('click', startTimer);
+    stopButton.addEventListener('click', stopTimer);
+    resetButton.addEventListener('click', resetTimer);
+  </script> -->
+  <script src="timr.js"></script>
+</body>
+</html>

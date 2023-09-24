@@ -1,0 +1,169 @@
+[
+  {
+      "id": 1,
+      "name": "Anthony Russo",
+      "age": 51,
+      "role":"Director",
+      "image": "https://i.ibb.co/cCmLtq1/MG-7867-01.jpg",
+      "salary": 7584,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 2,
+      "name": "Stan Lee",
+      "age": 95,
+      "role":"Story Writer",
+      "image": "https://i.ibb.co/qxQpLrH/MG-7875.jpg",
+      "salary": 11544,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 3,
+      "name": "Alan Silvestri",
+      "age": 71,
+      "role": "Music Director",
+      "image": "https://i.ibb.co/CHwkrWt/274690865-734658804366069-8660284558562774349-n.jpg",
+      "salary": 4579,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 4,
+      "name": "Jeffrey Ford",
+      "age": 65,
+      "role":"Editor",
+      "image": "https://i.ibb.co/PMvKDnV/294284977-826357081862907-4686667671306119394-n.jpg",
+      "salary": 4575,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 5,
+      "name": "Robert Downey Jr",
+      "age": 56,
+      "role":"Actor",
+      "image": "https://i.ibb.co/x85BxzQ/Whats-App-Image-2023-06-06-at-00-00-43.jpg",
+      "salary": 3568,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 6,
+      "name": "Chris Evans",
+      "age": 40,
+      "role":"Actor",
+      "image": "https://i.ibb.co/v41s0pb/Picsart-23-02-03-16-07-24-410.jpg",
+      "salary": 5678,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 7,
+      "name": "Chris Hemsworth",
+      "age": 37,
+      "role":"Actor",
+      "image": "https://i.ibb.co/dWYQhZ5/216785767-596129284885689-1465066883855950684-n.jpg",
+      "salary": 8564,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 8,
+      "name": "Mark Ruffalo",
+      "age": 53,
+      "role":"Actor",
+      "image": "https://i.ibb.co/BGjgWtz/269486605-692582961906987-1527814985425513932-n.jpg",
+      "salary": 4589,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 9,
+      "name": "Josh Brolin",
+      "age": 53,
+      "role":"Actor",
+      "image": "https://i.ibb.co/601hzyX/253990081-666781877820429-6735689603328731358-n.jpg",
+      "salary": 4586,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 10,
+      "name": "Scarlett Johansson",
+      "age": 36,
+      "role":"Actress",
+      "image": "https://i.ibb.co/DRQWb5k/Scarlett-Johansson-Natasha-Romanoff-Avengers-Age-of.jpg",
+      "salary": 5454,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 11,
+      "name": "Jeremy Renner",
+      "age": 50 ,
+      "role":"Actor",
+      "image": "https://i.ibb.co/ZB9wy2q/1-orig-08-01.jpg",
+      "salary": 4578,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 12,
+      "name": "Gwyneth Paltrow",
+      "age": 48,
+      "role":"Actress",
+      "image": "https://i.ibb.co/Z1C7T6B/76359987.jpg",
+      "salary": 7845,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 13,
+      "name": "Dave Bautista",
+      "age": 52,
+      "role":"Actor",
+      "image": "https://i.ibb.co/C5T3MrQ/1334535-1599pxdave-bautista-28046179174-386856.jpg",
+      "salary": 4585,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+  },
+  {
+      "id": 14,
+      "name": "Chadwick Boseman",
+      "age": 43,
+      "role":"Actor",
+      "image": "https://i.ibb.co/86ys0m1/download.jpg",
+      "salary": 4544,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+      
+  },
+  {
+      "id": 15,
+      "name": "Karen Gillan",
+      "age": 33,
+      "role":"Actress",
+      "image": "https://i.ibb.co/QnXmyzf/karen-gillan-1200.jpg",
+      "salary": 9464,
+      "country": "USA",
+      "fbUrl":"https://www.facebook.com/",
+      "twitter": "https://twitter.com"
+      
+  }
+]

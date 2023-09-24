@@ -1,0 +1,16 @@
+img{
+width: 200px;
+
+}
+.price{
+  color: green;
+}
+.fontWeight{
+font-weight: bold;
+}
+.fontStyle{
+  font-style: italic;
+}
+.fontStylee{
+  text-decoration:underline ;
+}
